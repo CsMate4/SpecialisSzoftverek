@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\frenchspacing
+% Komment
+
+\begin{document}
+\begin{large}
+
+1. feladat \par
+\end{large}
+
+Együtt megoldva. \\
+
+\begin{large}
+2. feladat \par
+\end{large}
+
+\texttt{\textbf{typewriter és vastag} } \par
+\textsc{\textit{kiskapitális és italic} } \par
+\textsl{\textsf{slanted és sans serif} } \par
+
+\textit{\emph{emph parancs italic szövegen belül.} } \par
+\textbf{\emph{emph parancs vastag betűs szövegen belül.} } \par
+\textsc{\emph{emph parancs kiskapitális szövegen belül.} } \par
+Egy szó a mondaton belül, legyen \begin{large}nagybetű\end{large} míg egy másik  legyen csupa \MakeUppercase{nagybetű}.\\
+
+\begin{large}
+3. feladat \par
+\end{large}
+A \textbf{graphicx} csomagra.\par
+\scalebox{-1}[1]{Vízszintesen tükrözött szöveg} \par
+\framebox{ \scalebox{-1}[1]{Bekeretezett vízszintesen tükrözött szöveg} } \par
+\scalebox{-1}[2]{Tükrözött és szétnyújtott szöveg}
+
+\rotatebox{90}{90°-al elforgatott szöveg} \par
+\rotatebox{270}{270°-al elforgatott szöveg} \par
+\textcolor{white}{\colorbox{black} {invertált}} szöveg \par
+\fcolorbox{red}{white}{Piros keretes szöveg}
+\end{document}

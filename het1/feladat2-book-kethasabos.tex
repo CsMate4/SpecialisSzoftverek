@@ -1,0 +1,65 @@
+\documentclass[twocolumn]{book}
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{hulipsum}
+\usepackage{geometry}
+\frenchspacing
+
+% Margók (belső: 3cm, külső: 5cm, kötésmargó: 1cm)
+\geometry{inner=3cm,outer=5cm}
+\geometry{bindingoffset=1cm}
+% Széljegyzet (3cm vastag, 0.5cm választja el a szövegtől)
+\geometry{marginparwidth=3cm,marginparsep=0.5cm}
+% Oszlopok közti távolság
+\geometry{columnsep=1cm}
+
+% Címsor, Tartalomjegyzék számozások
+\setcounter{secnumdepth}{5} 
+\setcounter{tocdepth}{5}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+
+\begin{document}
+\title{Könyv címe}
+\author{Szerző}
+\maketitle
+
+\pagenumbering{Roman}
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}
+\section[zagyvaság]{Első zagyvaságok}
+\footnote{Ez egy lábjegyzet, a section címsorba.}
+\subsection{Bla bla bla}
+\hulipsum[2]
+\subsection{Még több zagyvaság..}
+\hulipsum[2]
+\subsubsection{Zagyvaságon belüli zagyvaság}
+\paragraph{Egy "paragraph"}
+\subparagraph{Egy szinttel lejjebbi "subparagraph"}
+\newpage
+\section{Második oldalnyi zagyvaság}
+\hulipsum[2-3] \linebreak
+\footnote{Ez egy lábjegyzet}
+
+\appendix
+\section{Függeléken belüli rész}
+\subsection{Valami szöveg...}
+\subsection{Bla bla bla2}
+
+\section{Függeléken belüli másik rész}
+\subsection{Egy másik "subsection"}
+\subsection{és még egy.}
+
+
+\newpage
+
+{
+Mi történik a számozással, ha subsubsection szintű címsort hozunk létre
+közvetlenül a section szintű után? \par
+Létrehozódik a section szinten belül, egy subsection pl: 0.1.-ből lesz 0.1.1.
+
+Mi történt a széljegyzettel, címmel, tartalomjegyzékkel? \par
+Ugyan úgy maradt a tartalomjegyzék és a cím is.
+}
+\end{document}

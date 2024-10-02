@@ -1,0 +1,54 @@
+\documentclass{article}
+\usepackage[english,magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage{hulipsum}
+\usepackage{blindtext}
+\frenchspacing
+
+\begin{document}
+\title{Cím}
+\author{Szerző}
+\maketitle
+
+\begin{large}
+1. feladat:
+\end{large}
+
+\selectlanguage{english}
+\noindent
+\bigskip
+\blindtext[2] \newpage
+
+\selectlanguage{magyar}
+\begin{flushright}
+\hulipsum[2-3]
+\end{flushright} \newpage
+
+{
+\begin{otherlanguage}{latin}
+\linespread{2}
+\lipsum[2-3]
+\end{otherlanguage} } \\
+
+hogyan tudjuk elérni, hogy ezek a hatások lokálisak legyenek? \par
+A document blokkba helyezzük azt. \\
+
+
+\begin{large}
+2. feladat:
+\end{large}
+A frenchspacing-el kisebb lesz a térköz pont, pontosvessző és hasonló írásjelen után.
+
+
+Angol szakasz: \par
+\begin{otherlanguage}{english}
+\today
+\end{otherlanguage}
+
+Magyar szakasz: \par
+\begin{otherlanguage}{magyar}
+\today
+\end{otherlanguage}
+
+\end{document}

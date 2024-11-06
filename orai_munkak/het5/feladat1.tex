@@ -1,0 +1,137 @@
+\documentclass[12pt,aspectratio=169]{beamer}
+\PassOptionsToPackage{table}{xcolor}
+
+\usepackage{multimedia}
+\usetheme{Madrid}
+\usecolortheme{seahorse}
+
+\title{Gyakorlat}
+\author{Marót Máté}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{Gyakorlás}
+  \framesubtitle{Gyakorlás}
+  Ez egy bevezető dia.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Gyakorlás}
+  Ez egy második dia szövege.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Gyakorlás}
+  Ez egy harmadik dia szövege.
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Verbatim példa}
+  \begin{verbatim}
+  Itt egy verbatim szöveg.
+  \end{verbatim}
+\end{frame}
+
+\begin{frame}[allowframebreaks]
+  \frametitle{Több bekezdésnyi szöveg}
+  Itt jön a hosszú zagyva szöveg, amit automatikusan széttördel több frame-re...
+\end{frame}
+
+\begin{frame}
+  \frametitle{Két oszlopos dia}
+  \begin{columns}[T]
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+        \item Első elem
+        \item Második elem
+      \end{itemize}
+      \begin{enumerate}
+        \item Első szám
+        \item Második szám
+      \end{enumerate}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{szines.jpg} % Kép beillesztése
+        \caption{Színes kép}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Block példák}
+  \begin{block}{Normál Block}
+    Ez egy normál block.
+  \end{block}
+
+  \begin{alertblock}{Alert Block}
+    Ez egy figyelmeztető block.
+  \end{alertblock}
+
+  \begin{exampleblock}{Example Block}
+    Ez egy példa block.
+  \end{exampleblock}
+  
+  \begin{block}{}
+    Ez egy cím nélküli block.
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Tétel és bizonyítás}
+  \begin{theorem}
+    Ez egy tétel.
+  \end{theorem}
+
+  \begin{proof}
+    Itt a bizonyítás jön.
+  \end{proof}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{Semiverbatim példa}
+  \begin{semiverbatim}
+  \textbf{Példa:} \textcolor{red}{Ez egy kiemelt parancs}. 
+  \end{semiverbatim}
+\end{frame}
+
+\section{Első szekció}
+\subsection{Első alfejezet}
+
+\begin{frame}
+  \frametitle{Tartalomjegyzék}
+  \tableofcontents[currentsection]
+\end{frame}
+
+\section{Második szekció}
+\subsection{Második alfejezet}
+
+\begin{frame}
+  \frametitle{Tartalomjegyzék}
+  \tableofcontents[currentsection]
+\end{frame}
+
+\begin{frame}
+  \frametitle{Block overlay}
+  \begin{block}{Blokk címe}
+    Első szöveg \pause
+    Második szöveg \pause
+    Harmadik szöveg
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Áttűnések tesztelése}
+  \transfade
+  Tartalom az áttűnéshez...
+\end{frame}
+
+\end{document}

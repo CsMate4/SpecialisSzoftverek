@@ -1,0 +1,4 @@
+\frametitle{Semiverbatim példa}
+  \begin{semiverbatim}
+  \textbf{Példa:} \textcolor{red}{Ez egy kiemelt parancs}.
+  \end{semiverbatim}

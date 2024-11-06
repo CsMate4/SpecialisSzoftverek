@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.5)  6 NOV 2024 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.5)  6 NOV 2024 19:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -306,11 +306,7 @@ ackend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box53
-) (feladat1.aux
-
-LaTeX Warning: Label `eq:7d' multiply defined.
-
-)
+) (feladat1.aux)
 \openout1 = `feladat1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -387,10 +383,6 @@ l.150 \end{document}
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `feladat1.out' has not changed.
 (rerunfilecheck)             Checksum: CA633E795FB86B700A0AF9DFF5E755C7;230.
  ) 

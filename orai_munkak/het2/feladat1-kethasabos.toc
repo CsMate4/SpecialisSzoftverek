@@ -1,0 +1,13 @@
+\select@language {magyar} \contentsline {section}{\numberline {0.1}zagyvaság}{1}{section.0.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {0.1.1}Bla bla bla}{1}{subsection.0.1.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {0.1.2}Még több zagyvaság..}{1}{subsection.0.1.2}%
+\select@language {magyar} \contentsline {subsubsection}{\numberline {0.1.2.1}Zagyvaságon belüli zagyvaság}{1}{subsubsection.0.1.2.1}%
+\select@language {magyar} \contentsline {paragraph}{\numberline {0.1.2.1.1}Egy "paragraph"}{1}{paragraph.0.1.2.1.1}%
+\select@language {magyar} \contentsline {subparagraph}{\numberline {0.1.2.1.1.1}Egy szinttel lejjebbi "subparagraph"}{1}{subparagraph.0.1.2.1.1.1}%
+\select@language {magyar} \contentsline {section}{\numberline {0.2}Második oldalnyi zagyvaság}{2}{section.0.2}%
+\select@language {magyar} \contentsline {section}{\numberline {.1}Függeléken belüli rész}{2}{section.Alph0.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {.1.1}Valami szöveg...}{2}{subsection.Alph0.1.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {.1.2}Bla bla bla2}{2}{subsection.Alph0.1.2}%
+\select@language {magyar} \contentsline {section}{\numberline {.2}Függeléken belüli másik rész}{2}{section.Alph0.2}%
+\select@language {magyar} \contentsline {subsection}{\numberline {.2.1}Egy másik "subsection"}{2}{subsection.Alph0.2.1}%
+\select@language {magyar} \contentsline {subsection}{\numberline {.2.2}és még egy.}{2}{subsection.Alph0.2.2}%

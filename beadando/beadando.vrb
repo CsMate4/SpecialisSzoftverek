@@ -1,0 +1,7 @@
+\frametitle{Node.js nyelv "Helló világ" példa}
+
+		Az alábbi példa egy PHP által készített dinamikus weboldal, amely megnyitáskor
+		kiírja, hogy "Hello World!".
+		\begin{lstlisting}[language=PHP]
+  <?php echo("Hello, World!);?>
+\end{lstlisting}

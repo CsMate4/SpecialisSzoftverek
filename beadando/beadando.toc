@@ -1,0 +1,23 @@
+\select@language {magyar} \beamer@sectionintoc {1}{Bevezetés}{11}{0}{1}
+\select@language {magyar} \beamer@sectionintoc {2}{A Java nyelv}{18}{0}{2}
+\select@language {magyar} \beamer@subsectionintoc {2}{1}{Bevezetés a Java nyelvbe}{18}{0}{2}
+\select@language {magyar} \beamer@subsectionintoc {2}{2}{Példa kód}{21}{0}{2}
+\select@language {magyar} \beamer@subsectionintoc {2}{3}{Java előnyei, hátrányai}{22}{0}{2}
+\select@language {magyar} \beamer@sectionintoc {3}{A Lua nyelv}{23}{0}{3}
+\select@language {magyar} \beamer@subsectionintoc {3}{1}{Bevezetés a Lua nyelvbe}{23}{0}{3}
+\select@language {magyar} \beamer@subsectionintoc {3}{2}{Példa kód}{26}{0}{3}
+\select@language {magyar} \beamer@subsectionintoc {3}{3}{Lua előnyei, hátrányai}{27}{0}{3}
+\select@language {magyar} \beamer@sectionintoc {4}{A Node.js nyelv}{28}{0}{4}
+\select@language {magyar} \beamer@subsectionintoc {4}{1}{Bevezetés a Node.js nyelvbe}{28}{0}{4}
+\select@language {magyar} \beamer@subsectionintoc {4}{2}{Példa kód}{32}{0}{4}
+\select@language {magyar} \beamer@subsectionintoc {4}{3}{Node.js előnyei, hátrányai}{33}{0}{4}
+\select@language {magyar} \beamer@subsectionintoc {4}{4}{Leghíresebb Node.js csomagok}{34}{0}{4}
+\select@language {magyar} \beamer@sectionintoc {5}{A PHP nyelv}{37}{0}{5}
+\select@language {magyar} \beamer@subsectionintoc {5}{1}{Bevezetés a PHP nyelvbe}{37}{0}{5}
+\select@language {magyar} \beamer@subsectionintoc {5}{2}{Példa kód}{41}{0}{5}
+\select@language {magyar} \beamer@subsectionintoc {5}{3}{PHP előnyei, hátrányai}{42}{0}{5}
+\select@language {magyar} \beamer@subsectionintoc {5}{4}{PHP legismertebb csomagjai és leírása}{43}{0}{5}
+\select@language {magyar} \beamer@sectionintoc {6}{Nyelvek elterjedtsége}{44}{0}{6}
+\select@language {magyar} \beamer@sectionintoc {7}{Összefoglaló}{45}{0}{7}
+\select@language {magyar} \beamer@subsectionintoc {7}{1}{1/2 Összefoglaló}{45}{0}{7}
+\select@language {magyar} \beamer@subsectionintoc {7}{2}{2/2 összefoglaló}{46}{0}{7}

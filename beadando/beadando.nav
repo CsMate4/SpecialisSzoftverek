@@ -1,0 +1,104 @@
+\select@language {magyar} \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {1}{1}}
+\select@language {magyar} \headcommand {\slideentry {0}{0}{2}{2/8}{}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {2}{8}}
+\select@language {magyar} \headcommand {\slideentry {0}{0}{3}{9/10}{}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {9}{10}}
+\select@language {magyar} \headcommand {\beamer@sectionpages {1}{10}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {1}{10}}
+\select@language {magyar} \headcommand {\sectionentry {1}{Bevezetés}{11}{Bevezetés}{0}}
+\select@language {magyar} \headcommand {\slideentry {1}{0}{1}{11/17}{}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {11}{17}}
+\select@language {magyar} \headcommand {\beamer@sectionpages {11}{17}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {11}{17}}
+\select@language {magyar} \headcommand {\sectionentry {2}{A Java nyelv}{18}{A Java nyelv}{0}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {18}{17}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{2}{1}{18}{Bevezetés a Java nyelvbe}}
+\select@language {magyar} \headcommand {\slideentry {2}{1}{1}{18/20}{Bevezetés a Java nyelvbe}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {18}{20}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {18}{20}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{2}{2}{21}{Példa kód}}
+\select@language {magyar} \headcommand {\slideentry {2}{2}{1}{21/21}{Példa kód}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {21}{21}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {21}{21}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{2}{3}{22}{Java előnyei, hátrányai}}
+\select@language {magyar} \headcommand {\slideentry {2}{3}{1}{22/22}{Java előnyei, hátrányai}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {22}{22}}
+\select@language {magyar} \headcommand {\beamer@sectionpages {18}{22}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {22}{22}}
+\select@language {magyar} \headcommand {\sectionentry {3}{A Lua nyelv}{23}{A Lua nyelv}{0}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {23}{22}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{3}{1}{23}{Bevezetés a Lua nyelvbe}}
+\select@language {magyar} \headcommand {\slideentry {3}{1}{1}{23/25}{Bevezetés a Lua nyelvbe}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {23}{25}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {23}{25}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{3}{2}{26}{Példa kód}}
+\select@language {magyar} \headcommand {\slideentry {3}{2}{1}{26/26}{Példa kód}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {26}{26}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {26}{26}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{3}{3}{27}{Lua előnyei, hátrányai}}
+\select@language {magyar} \headcommand {\slideentry {3}{3}{1}{27/27}{Lua előnyei, hátrányai}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {27}{27}}
+\select@language {magyar} \headcommand {\beamer@sectionpages {23}{27}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {27}{27}}
+\select@language {magyar} \headcommand {\sectionentry {4}{A Node.js nyelv}{28}{A Node.js nyelv}{0}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {28}{27}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{4}{1}{28}{Bevezetés a Node.js nyelvbe}}
+\select@language {magyar} \headcommand {\slideentry {4}{1}{1}{28/31}{Bevezetés a Node.js nyelvbe}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {28}{31}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {28}{31}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{4}{2}{32}{Példa kód}}
+\select@language {magyar} \headcommand {\slideentry {4}{2}{1}{32/32}{Példa kód}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {32}{32}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {32}{32}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{4}{3}{33}{Node.js előnyei, hátrányai}}
+\select@language {magyar} \headcommand {\slideentry {4}{3}{1}{33/33}{Node.js előnyei, hátrányai}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {33}{33}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {33}{33}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{4}{4}{34}{Leghíresebb Node.js csomagok}}
+\select@language {magyar} \headcommand {\slideentry {4}{4}{1}{34/36}{Leghíresebb Node.js csomagok}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {34}{36}}
+\select@language {magyar} \headcommand {\beamer@sectionpages {28}{36}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {34}{36}}
+\select@language {magyar} \headcommand {\sectionentry {5}{A PHP nyelv}{37}{A PHP nyelv}{0}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {37}{36}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{5}{1}{37}{Bevezetés a PHP nyelvbe}}
+\select@language {magyar} \headcommand {\slideentry {5}{1}{1}{37/40}{Bevezetés a PHP nyelvbe}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {37}{40}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {37}{40}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{5}{2}{41}{Példa kód}}
+\select@language {magyar} \headcommand {\slideentry {5}{2}{1}{41/41}{Példa kód}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {41}{41}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {41}{41}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{5}{3}{42}{PHP előnyei, hátrányai}}
+\select@language {magyar} \headcommand {\slideentry {5}{3}{1}{42/42}{PHP előnyei, hátrányai}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {42}{42}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {42}{42}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{5}{4}{43}{PHP legismertebb csomagjai és leírása}}
+\select@language {magyar} \headcommand {\slideentry {5}{4}{1}{43/43}{PHP legismertebb csomagjai és leírása}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {43}{43}}
+\select@language {magyar} \headcommand {\beamer@sectionpages {37}{43}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {43}{43}}
+\select@language {magyar} \headcommand {\sectionentry {6}{Nyelvek elterjedtsége}{44}{Nyelvek elterjedtsége}{0}}
+\select@language {magyar} \headcommand {\slideentry {6}{0}{1}{44/44}{}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {44}{44}}
+\select@language {magyar} \headcommand {\beamer@sectionpages {44}{44}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {44}{44}}
+\select@language {magyar} \headcommand {\sectionentry {7}{Összefoglaló}{45}{Összefoglaló}{0}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {45}{44}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{7}{1}{45}{1/2 Összefoglaló}}
+\select@language {magyar} \headcommand {\slideentry {7}{1}{1}{45/45}{1/2 Összefoglaló}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {45}{45}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {45}{45}}
+\select@language {magyar} \headcommand {\beamer@subsectionentry {0}{7}{2}{46}{2/2 összefoglaló}}
+\select@language {magyar} \headcommand {\slideentry {7}{2}{1}{46/46}{2/2 összefoglaló}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {46}{46}}
+\select@language {magyar} \headcommand {\slideentry {7}{2}{2}{47/47}{2/2 összefoglaló}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {47}{47}}
+\select@language {magyar} \headcommand {\slideentry {7}{2}{3}{48/48}{2/2 összefoglaló}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {48}{48}}
+\headcommand {\beamer@partpages {1}{48}}
+\headcommand {\beamer@subsectionpages {46}{48}}
+\headcommand {\beamer@sectionpages {45}{48}}
+\headcommand {\beamer@documentpages {48}}
+\headcommand {\gdef \inserttotalframenumber {23}}

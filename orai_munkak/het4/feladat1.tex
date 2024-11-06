@@ -1,0 +1,151 @@
+\documentclass{article}
+\author{Cser Máté}
+
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+
+\newtheorem{theorem}{Tétel}
+\newtheorem{lemma}[theorem]{Lemma}
+
+\theoremstyle{definition} % Definíció stílus
+\newtheorem{definition}{Definíció}
+
+\begin{document}
+
+\section{Tételek}
+\begin{theorem}[Az én tételem, Cser Máté]
+	Ez egy tétel...
+\end{theorem}
+
+\begin{theorem}
+	Ez egy másik tétel, szerző és név nélkül.
+\end{theorem}
+
+\begin{lemma} \label{lem:lemma1}
+	Ez egy Lemma, amely ugyan, úgy sorszámozódik mint egy Tétel.
+\end{lemma}
+
+\begin{definition}
+	Egy bizonyízás
+\end{definition}
+
+\begin{definition}
+	Bizányítás a Lemmára: \ref{lem:lemma1}
+\end{definition}
+
+\section{Metematikai formulák}
+\begin{enumerate}
+	\item[a)] Az $\frac{1}{n^2}$ sorösszege:
+
+	\begin{equation}
+		\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+	\end{equation}
+
+	\item[b)] Az $n!$ (n faktoriális) a számok szorzata $1$ től $n$-ig, azaz
+	
+	\begin{equation}\label{eq:factor}
+		n! := \prod_{k=1}^{n} k = 1\cdot 2 \cdots n.
+	\end{equation}
+	\noindent Konvenció szerint $0! = 1$.
+
+	\item[c)] Legyen $0 \leq k \leq n$ . A binomiális együttható
+	
+	\begin{equation}
+		\binom{n}{k} := \frac{n!}{k!(n-k)!}
+	\end{equation}
+	\noindent ahol a faktoriálist az (\ref{eq:factor}) szerint definiáljuk.
+
+	\item[d)] Az előjel- azaz szignum függvényt a következőképeen definiáljuk:
+	\begin{equation}
+		\operatorname{sgn}(x) := \begin{cases}
+			1, & \text{ha } x > 0, \\
+			0, & \text{ha } x = 0, \\
+			-1, & \text{ha } x < 0.
+		\end{cases}
+	\end{equation}
+\end{enumerate}
+
+
+% Determináns
+\begin{enumerate}
+	\item[a)] Legyen
+	\begin{equation}
+		[n] := \{1, 2, \ldots, n\}
+	\end{equation}
+	a természetes számok halmaza 1-től n-ig.
+	
+	\item[b)] Egy $n$-edrendű \emph{permutáció} $\sigma$ egy bijekció $[n]$-ből $[n]$-be. Az $n$-edrendű permutáció halmazát, az ún. szimmetrikus csoportot $S_n$-nél jelöljük.
+	
+	\item[c)] Egy $\sigma \in S_n$ permutációban \emph{inverziónak} nevezzük egy $(i,j)$ párt, ha $i < j$ de $\sigma(i) > \sigma(j)$.
+	
+	\item[d)] Egy $\sigma \in S_n$ permutáció \emph{paritásának} az inverziók számát nevezzük:
+	\begin{equation}
+		I(\sigma) := \{(i, j) \mid i, j \in [n], i < j, \sigma(i) > \sigma(j)\}.
+	\end{equation}
+	
+	\item[e)] Legyen $A \in \mathbb{R}^{n \times n}$, egy $n \times n$-es (négyzetes) valós mátrix:
+	\begin{equation}
+		A = \begin{pmatrix}
+			a_{11} & a_{12} & \cdots & a{1n} \\
+			a_{21} & a_{22} & \cdots & a{2n} \\
+			\vdots & \vdots & \cdots & \vdots \\
+			a_{n1} & a_{n2} & \cdots & a_{nn}
+		\end{pmatrix}
+	\end{equation}
+	
+	Az $A$ mátrix determinánsát a következőképpen definiáljuk:
+	
+	\begin{equation}
+		\det(A) = \begin{vmatrix}
+			a_{11} & a_{12} & \cdots & a_{1n} \\
+			a_{21} & a_{22} & \cdots & a_{2n} \\
+			\vdots & \vdots & \cdots & \vdots \\
+			a_{n1} & a_{n2} & \cdots & a_{nn}
+		\end{vmatrix} := \sum_{\sigma \in S_n} (-1)^{I(\sigma)} \prod_{i=1}^{n} a_{i\sigma(i)}.
+	\end{equation}
+\end{enumerate}
+
+% Logikai azonosság
+\noindent Tekintsük az $L = \{0, 1\}$ halmazt, és legyenek $a, b, c, d, \in L$. Belátjuk a következő azonosságot:
+\begin{equation}\label{eq:3}
+	(a \land b \land c) \to d = a \to (b \to (c \to d)).
+	\tag{3}
+\end{equation}
+
+\noindent A következő azonosságokat bizonyítás nélkül használjuk:\label{eq:4}
+\begin{equation}\label{eq:4a}
+	x \to y = \overline{x} \lor y \tag{4a}
+\end{equation}
+\begin{equation}\label{eq:4b}
+	\overline{x \lor y} = \overline{x} \land \overline{y} \qquad
+	\overline{x \land y} = \overline{x} \lor \overline{y}
+	\tag{4b}
+\end{equation}
+
+\noindent A (\ref{eq:3}) bal oldala, (\ref{eq:4a}) felhasználásával.
+\begin{equation}\label{eq:5}
+	(a \land b \land c) \to d = \overline{a \land b \land c} \lor d = (\overline{a} \lor \overline{b} \lor \overline{c}) \lor d. \tag{5}
+\end{equation}
+
+\noindent A (\ref{eq:3}) jobb oldala (\ref{eq:4a}) ismételt felhasználásával.
+\begin{equation}
+	a \to (b \to (c \to d) = \overline{a} \lor (b \to (c \to d))
+	= \overline{a} \lor (\overline{b} \lor (c \to d))
+	= \overline{a} \lor (\overline{b} \lor (\overline{c} \lor d)). \tag{6}
+\end{equation}
+\noindent ami a $\lor$ asszociativitása miatt egyenlő (\ref{eq:5}) egyenlettel.
+
+\begin{align}
+    (a+b)^{n+1} &= (a+b) \cdot \left( \sum_{k=0}^n \binom{n}{k} a^{n-k}b^k \right) \tag{7a} \label{eq:7a} \\
+    &= \cdots \\
+    &= \sum_{k=0}^n \binom{n}{k} a^{(n+1)-k}b^k + \sum_{k=1}^{n+1} \binom{n}{k-1} a^{(n+1)-k}b^{k} \tag{7b} \label{eq:7b} \\
+    &= \cdots \\
+    &= \binom{n+1}{0} a^{n+1-0} b^0 + \sum_{k=1}^n \binom{n+1}{k} a^{(n+1)-k}b^k \\
+    &\quad + \binom{n+1}{n+1} a^{n+1-(n+1)} b^{n+1} \tag{7c} \label{eq:7c} \\
+    &= \sum_{k=0}^{n+1} \binom{n+1}{k} a^{(n+1)-k}b^k \tag{7d} \label{eq:7d}
+\end{align}
+
+\end{document}
+

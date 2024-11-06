@@ -1,0 +1,170 @@
+\documentclass[12pt]{book}
+\usepackage[magyar]{babel}
+\usepackage[T1]{fontenc}  % Magyar karakterek és betűtípus kezelés
+\usepackage{hulipsum} % Generált szöveghez
+\usepackage{geometry} % Oldalméret és margók beállításához
+\usepackage{fancyhdr} % Fejléc és lábléc kezelése
+\usepackage{enumitem} % enumitem
+\usepackage{hyperref} % Hyperlinkek
+\usepackage{xcolor} % Színek
+\usepackage{varioref}
+\usepackage{cleveref}
+
+\frenchspacing % Francia spacing szabályok alkalmazása
+
+% Oldalstílus beállítása
+\pagestyle{fancy}
+
+% Fejléc és lábléc testreszabása
+\fancyhead[LO,RE]{\leftmark}  % Páros oldalon a szakasz neve, páratlan oldalon az alfejezet neve
+\fancyhead[RO,LE]{\thepage}   % Az oldalszám a fejléc külső sarkában
+\fancyfoot[C]{Miskolci Egyetem}  % Lábléc közepére az egyetem neve
+\renewcommand{\footrulewidth}{0.4pt}  % Választóvonal a lábléc fölött
+
+% Első oldal beállítása
+\thispagestyle{plain}  % Az első oldalon plain stílus, üres fejléc
+\renewcommand{\footrulewidth}{0.4pt}  % A lábléc fölött legyen választóvonal
+
+% Fejléc magasságának növelése
+\setlength{\headheight}{15pt}  
+
+% Oldalméret beállítása
+\geometry{inner=3cm, outer=5cm, bindingoffset=1cm}  % Belső és külső margó, kötésmargó
+\geometry{marginparwidth=3cm, marginparsep=0.5cm}  % Széljegyzet beállítása
+
+% Címsor és tartalomjegyzék beállítások
+\setcounter{secnumdepth}{5}   % Maximum szakaszszint
+\setcounter{tocdepth}{5}      % Maximum szakasz szint a tartalomjegyzékben
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}  % Lábjegyzet szimbólumok
+
+% Színes hyperlinkek
+\hypersetup{
+    colorlinks=true,
+    linkcolor=green,     % Hivatkozások színe
+    citecolor=red,      % Idézetek színe
+    urlcolor=purple       % Weboldal hivatkozások színe
+}
+
+\includeonly{tex2}  % Második fájl betöltése
+
+\begin{document}
+
+\title{Könyv címe}
+\author{Szerző}
+\maketitle
+
+% Tördelés és tartalomjegyzék
+\pagenumbering{Roman}
+\tableofcontents
+\newpage
+
+\pagenumbering{arabic}  % Átállás arab számokra
+\section[zagyvaság]{Első zagyvaságok}
+Elso szakasz: \ref{sec:elsoszakasz}, oldal szam: \pageref{sec:elsoszakasz}
+\label{sec:elsoszakasz}
+
+Hyperlink hivatkozás:
+\href{https://www.example.com}{www.example.com}
+
+Az első szakasz: \autoref{sec:elsoszakasz}, oldal: \autopageref{sec:elsoszakasz}.
+
+A \ref{sec:numberszakasz} szakasz tartalma.
+
+\footnote{Ez egy lábjegyzet, a section címsorba.}
+\subsection{Bla bla bla}
+Jelenleg a \cref{sec:numberszakasz} szakaszra hivatkozunk. \\
+\label{sub:alszakasz1}
+\hulipsum[2]  % Generált szöveg
+\subsection{Még több zagyvaság..}
+\label{sub:alszakasz2}
+\hulipsum[2]
+\subsubsection{Zagyvaságon belüli zagyvaság}
+\label{sub:alszakasz3}
+\paragraph{Egy "paragraph"}
+\chapter{Egy szinttel lejjebbi "subparagraph"}
+\section{Második oldalnyi zagyvaság}
+Hivatkozás az előző szakaszra: \vref{sec:elsoszakasz}.
+\hulipsum[2-3] \linebreak
+\footnote{Ez egy lábjegyzet}
+
+{
+Mi történik a számozással, ha subsubsection szintű címsort hozunk létre
+közvetlenül a section szintű után? \par
+Létrehozódik a section szinten belül, egy subsection pl: 0.1.-ből lesz 0.1.1.
+}
+
+\appendix  % Függelék kezdete
+\label{chap:appendix}
+\chapter{Függeléken belüli rész}
+\subsection{Valami szöveg...}
+\subsection{Bla bla bla2}
+
+\chapter{Függeléken belüli másik rész}
+\subsection{Egy másik "subsection"}
+\subsection{és még egy.}
+
+Egysoros listák:
+\begin{itemize}[label=\# , before=\hspace{0pt}, after=\hspace{0pt}]
+    \item Első elem \label{item:elsoelem}
+    \item Második elem
+    \item Harmadik elem, és
+\end{itemize}
+
+Számozott lista:
+\begin{enumerate}
+    \item Első szint
+    \begin{enumerate}
+        \renewcommand{\labelenumi}{\alph{enumi}.}  % Kisbetűs számozás
+        \item Második szint \label{enim:masodikelem}
+        \begin{enumerate}
+            \item Harmadik szint
+        \end{enumerate}
+    \end{enumerate}
+\end{enumerate}
+
+\newlist{myenum}{enumerate}{5}  % Létrehozunk egy új enum listát, ami 5-ig megy.
+\setlist[myenum,1]{label=\arabic*()}   % 1. szint arab szám, zárójelben
+\setlist[myenum,2]{label=\arabic*()}   % 2. szint arab szám, zárójelben
+\setlist[myenum,3]{label=\roman*()}   % 3. szint római szám, zárójelben
+
+\begin{myenum}
+    \item Első elem
+    \begin{myenum}
+        \item Második elem
+        \begin{myenum}
+            \item Harmadik elem
+        \end{myenum}
+    \end{myenum}
+\end{myenum}
+
+\hulipsum[1]
+
+\begin{enumerate}
+    \setcounter{enumi}{2}  % Folytatjuk a számozást 3-tól
+    \item Harmadik elem
+    \item Negyedik elem
+\end{enumerate}
+
+\begin{enumerate}
+    \item Első elem
+    \item Második elem
+    \item[] Ez nem lesz számozva
+    \item Harmadik elem
+\end{enumerate}
+
+\section*{Számozatlan szakasz}
+\markboth{Számozatlan szakasz}{Számozatlan szakasz}
+\label{sec:numberszakasz}
+
+\section*{Számozatlan szakasz}
+\label{sec:numberszakasz}
+\hulipsum[1-10]
+\newpage
+\hulipsum[1-10]
+
+Include vs. Input
+Input:
+\include{tex1}  % Első fájl betöltése
+
+
+\end{document}

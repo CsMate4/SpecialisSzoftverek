@@ -93,12 +93,17 @@
 \select@language {magyar} \headcommand {\beamer@subsectionentry {0}{7}{2}{46}{2/2 összefoglaló}}
 \select@language {magyar} \headcommand {\slideentry {7}{2}{1}{46/46}{2/2 összefoglaló}{0}}
 \select@language {magyar} \headcommand {\beamer@framepages {46}{46}}
-\select@language {magyar} \headcommand {\slideentry {7}{2}{2}{47/47}{2/2 összefoglaló}{0}}
+\select@language {magyar} \headcommand {\beamer@sectionpages {45}{46}}
+\select@language {magyar} \headcommand {\beamer@subsectionpages {46}{46}}
+\select@language {magyar} \headcommand {\sectionentry {8}{Algoritmusok komplexitása}{47}{Algoritmusok komplexitása}{0}}
+\select@language {magyar} \headcommand {\slideentry {8}{0}{1}{47/47}{}{0}}
 \select@language {magyar} \headcommand {\beamer@framepages {47}{47}}
-\select@language {magyar} \headcommand {\slideentry {7}{2}{3}{48/48}{2/2 összefoglaló}{0}}
+\select@language {magyar} \headcommand {\slideentry {8}{0}{2}{48/48}{}{0}}
 \select@language {magyar} \headcommand {\beamer@framepages {48}{48}}
-\headcommand {\beamer@partpages {1}{48}}
-\headcommand {\beamer@subsectionpages {46}{48}}
-\headcommand {\beamer@sectionpages {45}{48}}
-\headcommand {\beamer@documentpages {48}}
-\headcommand {\gdef \inserttotalframenumber {23}}
+\select@language {magyar} \headcommand {\slideentry {8}{0}{3}{49/49}{}{0}}
+\select@language {magyar} \headcommand {\beamer@framepages {49}{49}}
+\headcommand {\beamer@partpages {1}{49}}
+\headcommand {\beamer@subsectionpages {47}{49}}
+\headcommand {\beamer@sectionpages {47}{49}}
+\headcommand {\beamer@documentpages {49}}
+\headcommand {\gdef \inserttotalframenumber {24}}

@@ -21,3 +21,4 @@
 \select@language {magyar} \beamer@sectionintoc {7}{Összefoglaló}{45}{0}{7}
 \select@language {magyar} \beamer@subsectionintoc {7}{1}{1/2 Összefoglaló}{45}{0}{7}
 \select@language {magyar} \beamer@subsectionintoc {7}{2}{2/2 összefoglaló}{46}{0}{7}
+\select@language {magyar} \beamer@sectionintoc {8}{Algoritmusok komplexitása}{47}{0}{8}

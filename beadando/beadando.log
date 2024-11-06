@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.5)  6 NOV 2024 14:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.11.5)  6 NOV 2024 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1523,22 +1523,24 @@ File: lstlang2.sty 2023/02/27 1.9 listings language file
 
 ] [46
 
+] [47
+
 ]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-38.
+48.
 
 (C:\Users\Lancelot-Laptop\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.f
 d
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-) [47
+) [48
 
  <C:/Users/Lancelot-Laptop/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beame
 riconarticle.pdf>]
 
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' undefined
-(Font)              using `T1/cmss/m/n' instead on input line 546.
+(Font)              using `T1/cmss/m/n' instead on input line 556.
 
-[48
+[49
 
 ]
 \tf@nav=\write6
@@ -1570,10 +1572,10 @@ Package rerunfilecheck Info: File `beadando.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32570 strings out of 474485
- 652121 string characters out of 5739014
+ 32582 strings out of 474485
+ 652943 string characters out of 5739014
  1950542 words of memory out of 5000000
- 54123 multiletter control sequences out of 15000+600000
+ 54132 multiletter control sequences out of 15000+600000
  568886 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,123p,455b,2948s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1590,10 +1592,13 @@ TeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0700.pk> <C:\Users\Lancelot-Laptop\A
 ppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0500.pk> <C:\Users\L
 ancelot-Laptop\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000
 .pk> <C:\Users\Lancelot-Laptop\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecss1440.pk>
-Output written on beadando.pdf (48 pages, 1080367 bytes).
+/dpi600\ecss1440.pk><C:/Users/Lancelot-Laptop/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Lancelot-Laptop/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Lancelot-Lap
+top/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on beadando.pdf (49 pages, 1111449 bytes).
 PDF statistics:
- 1379 PDF objects out of 1440 (max. 8388607)
- 130 named destinations out of 1000 (max. 500000)
+ 1406 PDF objects out of 1440 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
  1101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
